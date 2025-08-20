@@ -11,7 +11,7 @@ const chalk = require('chalk');
 
 global.owner = ['6283192953573'] //['628','628'] 2 owner atau lebih
 global.author = 'rizztimeless'
-global.botname = 'Hitori Bot'
+global.botname = 'fr rizz'
 global.packname = 'Bot WhatsApp'
 global.listprefix = ['+','!','.']
 
@@ -90,4 +90,5 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
 
